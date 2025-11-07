@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Intern Task 01',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple, brightness: Brightness.dark),
       ),
-      home: const MyHomePage(title: 'Intern Task 01'),
+      home: const MyHomePage(title: 'Fitness App'),
     );
   }
 }
