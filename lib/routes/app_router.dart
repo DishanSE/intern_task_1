@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
 import 'package:intern_task_1/auth/splash_screen.dart';
-import 'package:intern_task_1/pages/dashboard_page.dart';
-import 'package:intern_task_1/pages/progress_summary_page.dart';
-import 'package:intern_task_1/pages/workout_plan_page.dart';
+import 'package:intern_task_1/pages/dashboard/dashboard_page.dart';
+import 'package:intern_task_1/pages/progress/progress_summary_page.dart';
+import 'package:intern_task_1/pages/workout/workout_plan_page.dart';
 
 final GoRouter appRouter = GoRouter(
   initialLocation: '/',
