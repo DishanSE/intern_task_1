@@ -20,16 +20,15 @@ class TrainerCard extends StatelessWidget {
               trainer.image,
               fit: BoxFit.cover,
               width: double.infinity,
-              height: 180,
+              height: 150,
             ),
             Container(
               width: double.infinity,
-              height: 180,
-              color: Colors.black.withAlpha((255 * 0.35).round()),
+              height: 150,
               padding: const EdgeInsets.all(16),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(trainer.title, style: AppTextStyles.headline2),
                   const SizedBox(height: 4),

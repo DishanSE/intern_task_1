@@ -36,32 +36,27 @@ class AppButton extends StatelessWidget {
                 borderRadius: BorderRadius.circular(40),
               ),
               alignment: Alignment.center,
-              child: Text(
-                text,
-                style: AppTextStyles.bodyText
-              ),
+              child: Text(text, style: AppTextStyles.bodyText),
             ),
           ),
 
           // Connector line
-          Container(
-            width: 20,
-            height: 6,
-            color: color,
-          ),
+          Container(width: 20, height: 6, color: color),
 
           // Circular play icon
           Container(
             width: 50,
             height: 50,
-            decoration: BoxDecoration(
-              color: color,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(
-              icon,
-              color: iconColor,
-              size: 32,
+            decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+            child: Container(
+              margin: const EdgeInsets.all(
+                10,
+              ),
+              decoration: const BoxDecoration(
+                color: Colors.white,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: AppColors.primary, size: 24),
             ),
           ),
         ],
